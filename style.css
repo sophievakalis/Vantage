@@ -1,0 +1,549 @@
+@charset "UTF-8";
+
+body{
+	padding: 0;
+	margin: 0;
+    height: 100vh;
+    background: #F4F8F7;;
+}
+
+.navbar {
+    background-color: #36404A;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+}
+
+.search{
+    width: 95%;
+	max-width: 1500px;
+	margin: 0 auto;
+}
+
+.search_box{
+    background-color: #4B535E;
+    border-radius: 20px;
+    width: 180px;
+    height: 20px;
+}
+
+.tab_container{
+    background-color: #1AAA9C;
+    
+}
+
+.tab{
+    width: 15%;
+    background-color: #F4F8F7;
+    margin: 10px -4px 0 0;
+    border: none;
+    color:#1AAA9C;
+}
+
+.tabs{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+h1{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ticket2, .ticket3{
+    background-color: #13978D;
+    color: #077068;
+}
+
+.newticket{
+    background-color: #108B80;
+    color: #ABD0CF;
+}
+
+.background_grey{
+    background-color: #F4F8F7;
+}
+
+.container{
+    width: 95%;
+	max-width: 1500px;
+	margin: 0 auto;
+}
+
+
+.tablinks{
+    width: 15%;
+    background-color: #F4F8F7;
+    margin: 20px -5px 0 0;
+    border: 1px solid #D7D7D7;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #A5A5A5;
+    font-size: 15px;
+    margin: 15px;
+    padding: 0;
+}
+
+#defaultOpen{
+    background-color: #FFFFFF;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.info_tab_box{
+    background-color: white;
+    border: 1px solid #D7D7D7;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 60%;
+    margin-top: -1px;
+}
+
+.tabcontent{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #D7D7D7;
+    width: 100%;
+}
+
+.description_info{
+    display: flex;
+    justify-content: flex-start;
+    width: 20%;
+    text-align: left;
+}
+
+.info p, .description_info p{
+    margin: 8px;
+}
+
+.trouble_ticket{
+    width: 33%;
+}
+
+.contact_info_titles{
+    margin-top: 20px;
+}
+
+.question{
+    border-bottom: 1px solid #D7D7D7;
+}
+
+.first_question{
+    border-top: 1px solid #D7D7D7;
+}
+
+.faq_text{
+    display: flex;
+    justify-content: space-between;
+}
+
+.faq_text p{
+    width: 95%;
+}
+
+h5{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #077068;
+    font-size: 16px;
+    margin: 15px 0 0 0; 
+}
+
+.search_bar{
+    display: flex;
+    justify-content: flex-end;
+}
+
+form{
+    border: 1px solid #D7D7D7;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+input{
+    border: none;
+}
+
+input:focus{
+    outline: none;
+}
+
+
+#message_tab{
+    display:none;
+}
+
+#contact_info_tab{
+    display: none;
+}
+
+#faq_tab{
+    display: ;
+}
+
+
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #077068;
+    font-size: 16px;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.message_box{
+    background-color: #F5F8FB;
+    border: 1px solid #D7D7D7;
+    border-radius: 5px;
+}
+
+.message_box_container{
+    width: 95%;
+    margin: 0 auto;
+    padding: 0 0 20px 0;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 13px;
+    color: #595D60;
+}
+
+.message_date{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 10px;
+}
+
+#date{
+    font-size: 12px;
+    color:#9FA3A6;
+}
+
+.reply_buttons{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.reply1, .reply2, .reply3{
+    background-color:#1AAA9C;
+    border: none;
+    margin: 0 3px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.reply3{
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 14px; 
+    color: white;
+    margin-right: 0;
+}
+
+
+.side_container{
+    width: 38%;
+}
+
+.options_container{
+    background-color: white;
+    border: 1px solid #D7D7D7;
+    border-radius: 5px;
+}
+
+.options_container_info{
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.commands{
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.commands p{
+    font-weight: bolder;
+}
+
+.commands img{
+    margin-left: 20px;
+}
+
+.edit_merge{
+    width: 50%;
+}
+
+.changestatus_addtofaq{
+    width: 50%;
+}
+
+.merge p, .edit p, .change_status p, .add_to_faq p{
+    margin: 0;
+    padding: 6px;
+}
+
+.edit{
+    border-bottom: 1px solid #D7D7D7;
+    padding-bottom: 5px;
+}
+
+.change_status{
+    border-bottom: 1px solid #D7D7D7;
+    border-left: 1px solid #D7D7D7;
+    padding-bottom: 5px;
+}
+
+.add_to_faq{
+    border-left: 1px solid #D7D7D7;
+    padding-top: 5px;
+}
+
+.merge{
+    padding-top: 5px;
+}
+
+
+.followup{
+    display: flex;
+}
+
+.followup_container{
+    background-color: white;
+    border-left: 1px solid #D7D7D7;
+    border-top: 1px solid #D7D7D7;
+    border-bottom: 1px solid #D7D7D7;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    margin: 15px 0 15px 0;
+    width: 85%;
+    
+}
+
+.followup_content{
+    display: flex;
+}
+
+.followup_text{
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 25px;
+}
+
+.followup_text img{
+    margin-right: 10px; 
+}
+
+.bold{
+    font-weight: bolder;
+}
+
+.followup_date {
+    margin-right: 10px;
+}
+
+
+.followup button{
+    background-color:#1AAA9C;
+    border: 1px solid #1AAA9C;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 15%;
+    height: 43px;
+    margin: 15px 0 15px 0;
+}
+
+
+.addtag{
+    display: flex;
+}
+
+.addtag_container{
+    background-color: white;
+    border-left: 1px solid #D7D7D7;
+    border-top: 1px solid #D7D7D7;
+    border-bottom: 1px solid #D7D7D7;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    margin: 0 0 15px 0;
+    width: 85%;
+}
+
+.addtag_text{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 25px;
+}
+
+.addtag_text img{
+    margin-right: 10px;
+}
+
+.addtag button{
+    background-color:#1AAA9C;
+    border: 1px solid #1AAA9C;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 15%;
+    height: 43px;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 14px; 
+    color: white;
+}
+
+.login_issue_container{
+    background-color: white;
+    border: 1px solid #D7D7D7;
+    border-radius: 5px;
+}
+
+.login_issue{
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #077068;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.login_issue_contents{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    border-bottom: 1px solid #D7D7D7;
+}
+
+.login_issue_contents p{
+    margin: 8px 0 ;
+}
+
+#assigned{
+    border: none;
+}
+
+.description{
+    width: 30%;
+}
+
+.login_issue_contents p{
+    text-align: left;
+}
+
+
+@media screen and (max-width: 950px) {
+    .content{
+        flex-direction: column;
+    }
+
+    .info_tab_box{
+        width: 100%;
+        border-top-right-radius: 0px;
+    }
+
+    .side_container{
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .tab{
+        width: 25%;
+    }
+
+    h1{
+        font-size: 15px;
+    }
+
+    .tabs img{
+        max-width: 15%;
+    }
+
+    .tablinks{
+        width: 25%;
+    }
+
+    h2{
+        font-size: 12px;
+        margin: 10px 0;
+    }
+
+    .message_box{
+        margin-bottom: 15px;
+    }
+
+    .commands{
+        justify-content: center;
+    }
+
+    .commands img{
+        margin-left: 0;
+    }
+
+    .reply1, .reply2, .reply3{
+        margin: 0 3px;
+        padding: 8px 10px;  
+    }
+   
+}
+
+@media screen and (max-width: 550px) {
+    h1{
+        font-size: 12px;
+    }
+
+    .search_box{
+        height: 17px;
+    }
+
+    .tablinks{
+        width: 30%;
+    }
+
+    .description_info p{
+        font-size: 10px;
+    }
+
+    .col1{
+        width: 10%;
+    }
+
+    form{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .description_info p{
+        font-size: 8px;
+    }
+}
