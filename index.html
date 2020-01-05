@@ -50,13 +50,13 @@
 <div class="container">
 
     <div class="info_tabs">
-        <button class="tablinks"  id="defaultOpen">
+        <button class="tablinks"  id="message_button" onclick="displayMessageTab()">
             <h2>Message</h2>
         </button>
-        <button class="tablinks">
+        <button class="tablinks" id="contact_button" onclick="displayContactTab()">
             <h2>Contact Info</h2>
         </button>
-        <button class="tablinks">
+        <button class="tablinks" id="faq_button" onclick="displayFaqTab()">
             <h2>FAQ</h2>
         </button>
     </div>
@@ -64,7 +64,7 @@
     <div class="content">
 
     <div class="info_tab_box">
-        <div class="tabcontent" id="message_tab">
+        <div class="tabcontent hide-content" id="message_tab">
             <div class="title">
                 <h3>Help! Issues Logging In</h3>
                 <img src="images/paperclip.svg">
@@ -86,7 +86,7 @@
             </div>
         </div><!--end of message tab-->
 
-        <div class="tabcontent" id="contact_info_tab">
+        <div class="tabcontent hide-content" id="contact_info_tab">
             <div class="title">
                 <h4>CONTACT</h4>
             </div>
@@ -276,7 +276,7 @@
             </div>
         </div><!--end of contact info tab-->
 
-        <div class="tabcontent" id="faq_tab">
+        <div class="tabcontent hide-content" id="faq_tab">
             <div class="search_bar" action="#">
                 <form>
                     <input type="text" class="searching" onfocus="this.value=''" value="Search FAQs">
@@ -455,6 +455,7 @@
 
 </div><!--end of background grey-->
 
+<script src="tabs.js"></script>
 
 </body>
 </html>

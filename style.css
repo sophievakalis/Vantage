@@ -77,6 +77,11 @@ h1{
     background-color: #F4F8F7;
     margin: 20px -5px 0 0;
     border: 1px solid #D7D7D7;
+    cursor: pointer;
+}
+
+.tablinks:focus{
+    outline: none;
 }
 
 h2{
@@ -87,7 +92,7 @@ h2{
     padding: 0;
 }
 
-#defaultOpen{
+.tabOpen{
     background-color: #FFFFFF;
 }
 
@@ -188,19 +193,9 @@ input:focus{
 }
 
 
-#message_tab{
-    display:none;
-}
-
-#contact_info_tab{
+.hide-content{
     display: none;
 }
-
-#faq_tab{
-    display: ;
-}
-
-
 
 h3{
     font-family: Arial, Helvetica, sans-serif;
